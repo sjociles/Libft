@@ -6,7 +6,7 @@
 /*   By: sjociles <sjociles@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/18 15:49:07 by sjociles          #+#    #+#             */
-/*   Updated: 2022/05/18 16:10:56 by sjociles         ###   ########.fr       */
+/*   Updated: 2022/05/19 16:07:31 by sjociles         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,5 +26,5 @@ void	ft_lstclear(t_list **lst, void (*del)(void *))
 			*lst = tmp;
 		}
 	}
-	*lst = NULL;		
+	*lst = NULL;
 }
